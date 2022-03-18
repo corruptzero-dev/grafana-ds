@@ -1,0 +1,9 @@
+grafana_url: "http://localhost:3000"
+grafana_user: admin
+grafana_password: admin
+org_id: "1"
+
+data_source:
+  - name: prometheus
+    ds_type: "prometheus"
+    ds_url: "http://localhost:9090"
