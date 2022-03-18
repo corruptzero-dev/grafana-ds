@@ -4,6 +4,6 @@ grafana_password: admin
 org_id: "1"
 
 data_source:
-  - name: prometheus
+  - name: myPrometheus
     ds_type: "prometheus"
     ds_url: "http://localhost:9090"

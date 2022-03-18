@@ -1,3 +1,10 @@
+- name: Start Grafana container
+  docker_container:
+    name: grafana
+    image: grafana/grafana-oss
+    state: started
+    ports:
+      - "3000:3000"
 - name: Create prometheus datasource
   grafana_datasource:
     name: "{{ item.name }}"
